@@ -1,0 +1,57 @@
+*, ::after,::before {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.hraci {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrac1,
+.hrac2 {
+    display: flex;
+}
+
+.hrac1_popis,
+.hrac2_popis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.hrac1_popis p,
+.hrac2_popis p {
+    margin: 0;
+    color: rgb(120, 120, 120);
+}
+
+.hrac1_popis {
+    margin-left: 0.5rem;
+}
+
+.hrac2_popis {
+    margin-right:  0.5rem;
+    text-align: right;
+}
+
+.hrac1 img,
+.hrac2 img {
+    object-fit: cover;
+    border-radius: 20%;
+}
+

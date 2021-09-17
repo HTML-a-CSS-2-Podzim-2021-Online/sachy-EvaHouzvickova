@@ -5,6 +5,8 @@
 body {
     max-width: 600px;
     font-family: sans-serif;
+    margin: auto;
+    padding: 1rem;
 }
 
 h1 {
@@ -55,3 +57,79 @@ h2 {
     border-radius: 20%;
 }
 
+.sachovnice {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-image: url("obrazky/sachovnice.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 0.5rem rgb(42, 19, 3);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.figurka:nth-child(1) {
+    grid-column: 6;
+    grid-row: 8;
+}
+
+.figurka:nth-child(2) {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.figurka:nth-child(3) {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.figurka:nth-child(4) {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.figurka:nth-child(5) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.figurka:nth-child(6) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.figurka:nth-child(7) {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.figurka:nth-child(8) {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.figurka:nth-child(9) {
+    grid-column: 3;
+    grid-row: 8;
+}
+
+.sachovnice img {
+    width: 100%;
+}
+
+.vitez {
+    text-align: center;
+}
+
+.vitez p {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+button {
+    color: rgb(255,255,255) ;
+}

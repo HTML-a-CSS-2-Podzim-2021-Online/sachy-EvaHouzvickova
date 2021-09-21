@@ -61,12 +61,19 @@ h2 {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     background-image: url("obrazky/sachovnice.png");
-    background-size:100% 100%;
+    background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
+    aspect-ratio: 1/1;
     border: solid 0.5rem rgba(42, 19, 3, 0.911);
     border-radius: 5px;
     margin-bottom: 2rem;
     margin-top: 1rem;
+}
+
+.figurka {
+    width: 100%;
+    height: auto;
 }
 
 .figurka:nth-child(1) {
@@ -114,10 +121,6 @@ h2 {
     grid-row: 8;
 }
 
-.sachovnice img {
-    max-width: 100%;
-}
-
 .vitez {
     text-align: center;
 }
@@ -133,6 +136,7 @@ button {
     padding: 0.4rem 1.3rem;
     border-radius: 3px;
     border: solid 1px rgba(0, 0, 0, 0.192);
+    cursor: pointer;
 }
 
 
